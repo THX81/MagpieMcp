@@ -56,11 +56,11 @@ cd MagpieMcp
 
 2. Start the services:
 ```bash
-docker-compose up -d --build
+docker-compose -f docker-compose.yml up -d --build
 ```
 or
 ```bash
-podman-compose up -d --build
+podman-compose -f podman-compose.yml up -d --build
 ```
 
 This will start:
