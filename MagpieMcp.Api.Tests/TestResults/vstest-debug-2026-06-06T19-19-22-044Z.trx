@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e3f336d7-03ff-4eaa-928f-f4739e200e40" name="@archlive-nexus-x13 2026-06-06 20:20:27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-06-06T20:20:27.3219087+01:00" queuing="2026-06-06T20:20:27.3219089+01:00" start="2026-06-06T20:19:24.4963517+01:00" finish="2026-06-06T20:20:27.3335948+01:00" />
+  <TestSettings name="default" id="dbb6bb8c-96df-4a43-9a40-30213d9dda4e">
+    <Deployment runDeploymentRoot="_archlive-nexus-x13_2026-06-06_20_20_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="11abe8e3-6e90-4f04-8a21-4a01776a3f31" testId="2655e983-f253-4cb8-86a1-fd643e035319" testName="MagpieMcp.Api.Tests.SearchIntegrationTest.Test1" computerName="archlive-nexus-x13" duration="00:00:56.8081615" startTime="2026-06-06T20:19:29.9277841+01:00" endTime="2026-06-06T20:20:27.0866700+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11abe8e3-6e90-4f04-8a21-4a01776a3f31">
+      <Output>
+        <StdOut>_searchService: MagpieMcp.Api.Services.SearchService</StdOut>
+        <ErrorInfo>
+          <Message>System.NullReferenceException : Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at MagpieMcp.Api.Tests.SearchIntegrationTest.Test1() in /mnt/d/projects/Personal/MagpieMcp/MagpieMcp.Api.Tests/SearchIntegrationTest.cs:line 49
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MagpieMcp.Api.Tests.SearchIntegrationTest.Test1" storage="/mnt/d/projects/personal/magpiemcp/magpiemcp.api.tests/bin/debug/net10.0/magpiemcp.api.tests.dll" id="2655e983-f253-4cb8-86a1-fd643e035319">
+      <Execution id="11abe8e3-6e90-4f04-8a21-4a01776a3f31" />
+      <TestMethod codeBase="/mnt/d/projects/Personal/MagpieMcp/MagpieMcp.Api.Tests/bin/Debug/net10.0/MagpieMcp.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MagpieMcp.Api.Tests.SearchIntegrationTest" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2655e983-f253-4cb8-86a1-fd643e035319" executionId="11abe8e3-6e90-4f04-8a21-4a01776a3f31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Waiting for debugger attach...
+Process Id: 959921, Name: dotnet
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.8)
+[xUnit.net 00:00:00.35]   Discovering: MagpieMcp.Api.Tests
+[xUnit.net 00:00:00.50]   Discovered:  MagpieMcp.Api.Tests
+[xUnit.net 00:00:00.57]   Starting:    MagpieMcp.Api.Tests
+[xUnit.net 00:00:57.79]       System.NullReferenceException : Object reference not set to an instance of an object.
+[xUnit.net 00:00:57.80]       Stack Trace:
+[xUnit.net 00:00:57.80]         /mnt/d/projects/Personal/MagpieMcp/MagpieMcp.Api.Tests/SearchIntegrationTest.cs(49,0): at MagpieMcp.Api.Tests.SearchIntegrationTest.Test1()
+[xUnit.net 00:00:57.80]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:57.80]       Output:
+[xUnit.net 00:00:57.80]         _searchService: MagpieMcp.Api.Services.SearchService
+[xUnit.net 00:00:57.83]   Finished:    MagpieMcp.Api.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="archlive-nexus-x13" outcome="Warning" timestamp="2026-06-06T20:19:29.3205268+01:00">
+        <Text>[xUnit.net 00:00:00.02] * Note: Long running test detection and test timeouts are disabled due to an attached debugger *</Text>
+      </RunInfo>
+      <RunInfo computerName="archlive-nexus-x13" outcome="Error" timestamp="2026-06-06T20:20:27.0951952+01:00">
+        <Text>[xUnit.net 00:00:57.79]     MagpieMcp.Api.Tests.SearchIntegrationTest.Test1 [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

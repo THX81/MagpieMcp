@@ -1,0 +1,4 @@
+services:
+  searxng:
+    ports:
+      - "8080:8080"

@@ -1,0 +1,8 @@
+# VS Code C# Dev Tools - Auto-generated runners
+.vscodecsdt/
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/node_modules
+.mcp.json

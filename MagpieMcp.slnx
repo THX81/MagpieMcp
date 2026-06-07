@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MagpieMcp.Api/MagpieMcp.Api.csproj"/>
+  <Project Path="MagpieMcp.Api.Tests/MagpieMcp.Api.Tests.csproj"/>
+</Solution>

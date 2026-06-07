@@ -1,0 +1,9 @@
+use_default_settings: true
+server:
+    secret_key: "9c366fcf-eecd-4f2b-9adc-0d813879e189" # random, change this
+search:
+  safe_search: 1
+  default_lang: "en"
+  formats:
+    - html
+    - json
